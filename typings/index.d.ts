@@ -81,7 +81,7 @@ declare namespace bizcharts{
   export interface BaseProps extends React.Props<any> {}
 
   export interface ChartProps extends React.DOMAttributes<{}>, React.Props<any> {
-    width?: number;
+    width?: number | string;
     height: number;
     padding?:
       | string
